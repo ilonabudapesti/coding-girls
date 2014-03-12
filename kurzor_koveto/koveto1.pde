@@ -18,11 +18,9 @@ void setup(){
   // beallitjuk a hatter meretet.
   size(400, 400);
 
-  // A felso menusorban valasz ki a Sketch menupontot
-  // majd kattints az "Add picture"-re
-  // valassz ki egy tetszoleges file-t, ebben a peldaban en a simon.jpg-t valasztottam
+  // betolthetunk kepet url-bol (ha van internet kapcsolatod)
   // http://www.processing.org/reference/loadImage_.html
-  icon = loadImage("simon.jpg");
+  icon = loadImage("http://media-cache-ec0.pinimg.com/avatars/simonscat-1371036747_30.jpg");
 
 }
 
