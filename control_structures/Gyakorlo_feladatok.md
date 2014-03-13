@@ -4,9 +4,11 @@
 (Indulj ki az if_pelda.pde kódból!)
 
 2. For ciklus segítségével készíts ilyen ábrát!
+![koncentrikus_korok](https://github.com/prezi/coding-girls/blob/master/control_structures/koncentrikus_korok.jpg)
 
 Koncentrikus körök, amelyeknek nem csak a sugara, hanem a színe is változik.
 (Nyugodtan használj más színt illetve más szabályt a kör sugarának változására. Sőt, próbálj ki több lehetőséget!)
 
 3. Bővítsük ki a sorházunkat lakóparkká! Legyen 3 sornyi ház, minden sorban 5 épülettel. De figyeljünk arra, hogy ne fedjék egymást a házak.
 
+![lakopark](https://github.com/prezi/coding-girls/blob/master/control_structures/lakopark.jpg)
