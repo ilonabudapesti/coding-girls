@@ -1,16 +1,48 @@
-### Házi feladat
-1. Keresd meg egy egész típusú értékekbõl álló tömbben egy értéket (pl.: 42)! Ha benne van, írd ki a sorszámát!
+### TÃ¶mbÃ¶k (Arrays)
+Az Array tÃ­pus arra jÃ³, hogy tÃ¶bb dolgot Ã¶sszecsoportosÃ­tsÃ¼k egy szÃ©p listÃ¡ba. Ebben a pÃ©ldÃ¡ban az Array hÃ¡rom String tÃ­pusÃº elemet tartalmaz. 
 
-2. Írd ki egy egész típusú értékekbõl álló tömb elemeinek átlagát! Vigyázz! Nem biztos hogy egész a végeredmény! :)
+```java
+Array tombom = {"rÃ©pa","retek","mogyorÃ³"};
+```
 
-3. Írd ki fordítva egy tömb elemeit!
-	- pl.: Array tombom = {"répa","retek","mogyoró"}; akkor azt írja ki, hogy : mogyoró retek répa
+Amikor megvan a tÃ¶mb, Ã©s az elemeit szeretnÃ©nk tudni, akkor szÃ¶gletes zÃ¡rÃ³jelekbe teszÃ¼k az elemnek a sorszÃ¡mÃ¡t rÃ¶gtÃ¶n a tÃ¶mb neve utÃ¡n. Fontos tudni, hogy az elsÅ‘ elem a _nulladik_ sorszÃ¡m, a mÃ¡sodik elem az _elsÅ‘_ sorszÃ¡m, stb.  TehÃ¡t,
+
+```java
+tombom[0] // "rÃ©pa"
+tombom[1] // "retek"
+tombom[2] // "mogyorÃ³"
+```
+
+Hogyha a tÃ¶mbnek az elem szÃ¡mÃ¡t szeretnÃ©nk tudni, akkor a '.length' tulajdonsÃ¡gÃ¡t hasznÃ¡ljuk. Ezeket Ã¶sszetÃ©ve tudunk egy egyszerÅ± programot Ã­rni, ami kiÃ­rja a tÃ¶mb elemeit.
+
+```java
+  Array tombom = {"rÃ©pa","retek","mogyorÃ³"};
+  for(int i = 0; i<tombom.length; i++) {
+    println(tombom[i]);
+  }
+```
+
+### Gyakorlat
+
+1. Ãrj egy programot, ami Ã¶sszeadja egy egÃ©szszÃ¡mokat tartalmazÃ³ tÃ¶mbnek az elemeit Ã©s a vÃ©gÃ©n kiÃ­rja az Ã¶sszeget.
+
+2. Ãrj egy programot, ami kiÃ­rja egy egÃ©szszÃ¡mokat tartalmazÃ³ tÃ¶mbnek a legnagyobb Ã©rtÃ©kÃ©t.
+
+Az Ãºtobbi gyakorlat talÃ¡n egy kicsit nehÃ©z, Ãºgyhogy ha sikerÃ¼l, akkor legyÃ©l bÃ¼szke!  Ezeknek a megoldÃ¡sÃ¡t az 'array1\_0.pde' fÃ¡jlban megtalÃ¡ljÃ¡tok.
+
+### HÃ¡zifeladat
+1. Keresd meg egy egÃ©sz tÃ­pusÃº Ã©rtÃ©kekbÃµl Ã¡llÃ³ tÃ¶mbben egy Ã©rtÃ©ket (pl.: 42)! Ha benne van, Ã­rd ki a sorszÃ¡mÃ¡t!
+
+2. Ãrd ki egy egÃ©sz tÃ­pusÃº Ã©rtÃ©kekbÃµl Ã¡llÃ³ tÃ¶mb elemeinek Ã¡tlagÃ¡t! VigyÃ¡zz! Nem biztos hogy egÃ©sz a vÃ©geredmÃ©ny! :)
+
+3. Ãrd ki fordÃ­tva egy tÃ¶mb elemeit!
+	- pl.: Array tombom = {"rÃ©pa","retek","mogyorÃ³"}; akkor azt Ã­rja ki, hogy : mogyorÃ³ retek rÃ©pa
 
 
 ### Szorgalmi:
-1. Határozd meg egy egész típusú értékekbõl álló tömbben lévõ pozitív, negatív és nulla elemek darabszámát!
+1. HatÃ¡rozd meg egy egÃ©sz tÃ­pusÃº Ã©rtÃ©kekbÃµl Ã¡llÃ³ tÃ¶mbben lÃ©vÃµ pozitÃ­v, negatÃ­v Ã©s nulla elemek darabszÃ¡mÃ¡t!
 
-2. Legyen két egész típusú értékekbõl álló tömböd, amelyeknek ugyanannyi eleme van. Rajzolj ki köröket, melyek középpontjának elsõ koordinátáját az elsõ, a másodikat a második tömbbõl vesszük!
-	- pl.: Array xKoord = {100,10,200}; Array yKoord = {10,100,250}; => kirajzolsz a (100,10), (10,100), (200,250) pontok köré köröket
-	- ha ez megy, tömbbõl vedd a körök színeit
-	- ha ez is, akkor az átmérõjüket is
+2. Legyen kÃ©t egÃ©sz tÃ­pusÃº Ã©rtÃ©kekbÃµl Ã¡llÃ³ tÃ¶mbÃ¶d, amelyeknek ugyanannyi eleme van. Rajzolj ki kÃ¶rÃ¶ket, melyek kÃ¶zÃ©ppontjÃ¡nak elsÃµ koordinÃ¡tÃ¡jÃ¡t az elsÃµ, a mÃ¡sodikat a mÃ¡sodik tÃ¶mbbÃµl vesszÃ¼k!
+	- pl.: Array xKoord = {100,10,200}; Array yKoord = {10,100,250}; => kirajzolsz a (100,10), (10,100), (200,250) pontok kÃ¶rÃ© kÃ¶rÃ¶ket
+	- ha ez megy, tÃ¶mbbÃµl vedd a kÃ¶rÃ¶k szÃ­neit
+	- ha ez is, akkor az Ã¡tmÃ©rÃµjÃ¼ket is
