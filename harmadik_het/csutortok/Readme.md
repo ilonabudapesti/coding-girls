@@ -30,6 +30,8 @@ Hogyha a tömbnek az elem számát szeretnénk tudni, akkor a '.length' tulajdon
 
 Az útobbi gyakorlat talán egy kicsit nehéz, úgyhogy ha sikerül, akkor legyél büszke!  Ezeknek a megoldását az 'array1\_0.pde' fájlban megtaláljátok.
 
+3. Rajzold meg a koncentrikus köröket úgy, hogy a különböző színeket egy tömbben tároljuk. Ennek a megoldását az 'array\_korSzinek.pde' fájlban megtaláljátok. 
+
 ### Házifeladat
 1. Keresd meg egy egész típusú értékekbõl álló tömbben egy értéket (pl.: 42)! Ha benne van, írd ki a sorszámát!
 
